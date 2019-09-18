@@ -1,0 +1,6 @@
+set mainfont {sans 12}
+set textfont {monospace 12}
+set autoselect 0
+set datetimeformat {%d-%m-%Y %H:%M:%S}
+set bgcolor #9A9A9A
+set diffcontext 1
