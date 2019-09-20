@@ -1,0 +1,8 @@
+[user]
+	email = -@-
+	name = ford@acer1
+[credential]
+	helper = store
+[alias]
+	rebaseall = rebase --rebase-merges --keep-empty
+	staged = diff --staged	
