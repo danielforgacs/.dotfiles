@@ -5,4 +5,6 @@
 	helper = store
 [alias]
 	rebaseall = rebase --rebase-merges --keep-empty
-	staged = diff --staged	
+	staged = diff --staged
+	noff = merge --no-ff
+
