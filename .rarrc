@@ -1,1 +1,1 @@
-switches=-k
+switches=-k -rr12p -t -htb -m4 -ma5 -or -r -s -ts -qo+
