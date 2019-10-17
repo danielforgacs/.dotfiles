@@ -6,5 +6,5 @@
 [alias]
 	rebaseall = rebase --rebase-merges --keep-empty
 	staged = diff --staged
-	noff = merge --no-ff
+	noff = merge --no-ff --no-edit
 
