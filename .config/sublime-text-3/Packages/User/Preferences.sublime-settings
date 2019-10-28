@@ -7,7 +7,6 @@
 	"close_windows_when_empty": true,
 	"default_line_ending": "unix",
 	"draw_minimap_border": true,
-	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj", "*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace"],
 	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".pytest_cache"],
 	"font_size": 12,
@@ -15,13 +14,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages": ["sublime-text-2-buildview", "Vintage"],
 	"line_padding_bottom": 0,
-	"rulers": [79],
 	"show_definitions": false,
 	"show_encoding": true,
 	"show_errors_inline": false,
 	"show_line_endings": true,
 	"theme": "Adaptive.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true,
 	"ui_scale": 1.23
 }
