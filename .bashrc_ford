@@ -1,0 +1,55 @@
+printf '\033[32m--------------------------------\n'
+echo '--> .bashrc_ford:'
+
+devdir=~/Documents/dev
+
+export HISTTIMEFORMAT="%d/%m/%y %T - "
+export HISTSIZE=5000
+export HISTCONTROL=ignoreboth:erasedups
+export HISTIGNORE=hh:exit
+export GIT_EDITOR=vim
+export PYTHONDONTWRITEBYTECODE=True
+# export PYTHONUNBUFFERED=1
+# export PYTHONINSPECT=True
+# export PYTHONVERBOSE=True
+# export PYTHONTHREADDEBUG=True
+
+if [ $(uname) == Linux ]
+then
+	export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
+else
+	echo not_linuz
+fi
+
+alias hh='history'
+alias ll='ls -lAhuv --group-directories-first'
+alias cddev="cd $devdir; ll"
+
+# GIT
+alias gs='git status'
+alias gss='git status -u'
+alias gr='git reflog'
+alias grr='git reflog --all'
+alias gu='git gui &'
+alias gk='gitk &'
+alias gkk='gitk --all &'
+alias gb='git branch'
+alias gbb='git branch --all'
+alias gf='git fetch --all'
+alias gff='git fetch --all --prune'
+alias gd='git diff -U1'
+alias gdd='git diff -U1 -w'
+alias gl='git log'
+alias gll='git log --all'
+alias gg="git log --oneline --graph --decorate"
+alias ggg="git log --oneline --all --graph --decorate"
+alias gls='git shortlog --all'
+
+echo '.. host:' $HOSTNAME
+echo '.. dev dir:' $devdir
+echo '.. python: ' `which python`
+echo '..  ' `python --version`
+echo '.. git: ' `which git`
+echo '..  ' `git --version`
+echo '--> .bashrc_ford sourced...'
+echo '--------------------------------'
