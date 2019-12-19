@@ -1,7 +1,7 @@
-printf '\033[32m--------------------------------\n'
+printf '\033[32m================================\n'
 echo '--> .bashrc_ford:'
 
-devdir=~/Documents/dev
+devdir=/home/ford/storage/dev
 
 export HISTTIMEFORMAT="%d/%m/%y %T - "
 export HISTSIZE=5000
@@ -48,8 +48,9 @@ alias gls='git shortlog --all'
 echo '.. host:' $HOSTNAME
 echo '.. dev dir:' $devdir
 echo '.. python: ' `which python`
-echo '..  ' `python --version`
+echo '.. python 3: ' `which python3`
+# echo '..  ' `python --version`
 echo '.. git: ' `which git`
-echo '..  ' `git --version`
+# echo '..  ' `git --version`
 echo '--> .bashrc_ford sourced...'
-echo '--------------------------------'
+printf '\033[32m================================\n'
