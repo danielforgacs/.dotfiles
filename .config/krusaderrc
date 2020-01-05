@@ -5,6 +5,14 @@ Version=2.7.2
 [Archives]
 Supported Packers=tar,gzip,bzip2,lzma,xz,unzip,zip,cbz,cpio,dpkg
 
+[Colors]
+Alternate Background=Background
+Background=160,160,164
+Current Background=192,192,192
+Inactive Foreground=128,128,128
+KDE Default=false
+Marked Background=128,0,0
+
 [Custom Selection Mode]
 Left Selects=false
 Space Moves Down=false
