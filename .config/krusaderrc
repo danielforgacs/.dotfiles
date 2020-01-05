@@ -4,6 +4,7 @@ Version=2.7.2
 
 [Archives]
 Supported Packers=tar,gzip,bzip2,lzma,xz,unzip,zip,cbz,cpio,dpkg
+Test Archives=true
 
 [Colors]
 Alternate Background=Background
