@@ -30,6 +30,11 @@ Window Height=680
 Window Maximized=false
 Window Width=900
 
+[Look&Feel]
+Filelist Font=Ubuntu,14,-1,5,50,0,0,0,0,0
+Single Instance Mode=true
+Tab Bar Position=top
+
 [Private]
 PopularUrls=file:///home/ford/
 PopularUrlsRank=23
