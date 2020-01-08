@@ -8,7 +8,7 @@
 	"default_line_ending": "unix",
 	"draw_minimap_border": true,
 	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj", "*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db", "*.sublime-workspace"],
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".pytest_cache"],
+	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", ".pytest_cache", ".venv"],
 	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
