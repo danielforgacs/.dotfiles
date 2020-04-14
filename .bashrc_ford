@@ -23,7 +23,8 @@ fi
 alias hh='history'
 alias ll='ls -lAhuv --group-directories-first'
 alias lll='ls -lhuv --group-directories-first'
-alias cddev="cd $DEVDIR; ll"
+# alias cddev="cd $DEVDIR; ll"
+alias cddev='cd $DEVDIR; ll'
 
 # GIT
 alias gs='git status'
