@@ -1,7 +1,11 @@
+# ADD THE NEX LINES TO .bashrc
+# export DEVDIR=/home/ford/storage/dev
+# source /home/ford/.bashrc_ford
+
+
 printf '\033[32m================================\n'
 echo '--> .bashrc_ford:'
 
-devdir=/home/ford/storage/dev
 
 export HISTTIMEFORMAT="%d/%m/%y %T - "
 export HISTSIZE=5000
@@ -24,7 +28,7 @@ fi
 alias hh='history'
 alias ll='ls -lAhuv --group-directories-first'
 alias lll='ls -lhuv --group-directories-first'
-alias cddev="cd $devdir; ll"
+alias cddev='cd $DEVDIR; ll'
 
 # GIT
 alias gs='git status'
@@ -47,11 +51,9 @@ alias ggg="git log --oneline --all --graph --decorate"
 alias gls='git shortlog --all'
 
 echo '.. host:' $HOSTNAME
-echo '.. dev dir:' $devdir
+echo '.. dev dir:' $DEVDIR
 echo '.. python: ' `which python`
 echo '.. python 3: ' `which python3`
-# echo '..  ' `python --version`
 echo '.. git: ' `which git`
-# echo '..  ' `git --version`
 echo '--> .bashrc_ford sourced...'
 printf '\033[32m================================\n'
