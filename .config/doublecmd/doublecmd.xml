@@ -308,7 +308,7 @@
     <Mark>255</Mark>
     <InactiveCursor>-2147483645</InactiveCursor>
     <InactiveMark>128</InactiveMark>
-    <UseInvertedSelection>False</UseInvertedSelection>
+    <UseInvertedSelection>True</UseInvertedSelection>
     <UseInactiveSelColor>False</UseInactiveSelColor>
     <AllowOverColor>True</AllowOverColor>
     <gBorderFrameWidth>1</gBorderFrameWidth>
