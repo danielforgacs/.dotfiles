@@ -663,7 +663,7 @@
         <Column>
           <Title>Name</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>250</Width>
+          <Width>456</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -686,7 +686,7 @@
         <Column>
           <Title>Ext</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>50</Width>
+          <Width>99</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -709,7 +709,7 @@
         <Column>
           <Title>Size</Title>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>70</Width>
+          <Width>95</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -732,7 +732,7 @@
         <Column>
           <Title>Date</Title>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>140</Width>
+          <Width>177</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -755,7 +755,7 @@
         <Column>
           <Title>Attr</Title>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>100</Width>
+          <Width>111</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
