@@ -422,7 +422,7 @@
     <NtfsHourTimeDelay>False</NtfsHourTimeDelay>
     <AutoExtractOpenMask/>
     <SearchDefaultTemplate/>
-    <ProgressKind>0</ProgressKind>
+    <ProgressKind>2</ProgressKind>
     <Confirmations>15</Confirmations>
     <Options>
       <Symlink>0</Symlink>
