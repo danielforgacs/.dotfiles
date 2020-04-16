@@ -312,7 +312,7 @@
     <UseInactiveSelColor>False</UseInactiveSelColor>
     <AllowOverColor>True</AllowOverColor>
     <gBorderFrameWidth>1</gBorderFrameWidth>
-    <InactivePanelBrightness>100</InactivePanelBrightness>
+    <InactivePanelBrightness>65</InactivePanelBrightness>
     <FreeSpaceIndicator>
       <UseGradient>True</UseGradient>
       <ForeColor>0</ForeColor>
