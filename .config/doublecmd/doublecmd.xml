@@ -403,7 +403,7 @@
     <InitiallyClearFileMask>True</InitiallyClearFileMask>
     <NewSearchClearFiltersAction>0</NewSearchClearFiltersAction>
     <ShowMenuBarInFindFiles>True</ShowMenuBarInFindFiles>
-    <WipePassNumber>1</WipePassNumber>
+    <WipePassNumber>2</WipePassNumber>
     <DropReadOnlyFlag>False</DropReadOnlyFlag>
     <ProcessComments>False</ProcessComments>
     <RenameSelOnlyName>False</RenameSelOnlyName>
