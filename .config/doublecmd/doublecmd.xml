@@ -468,7 +468,7 @@
     <GridHorzLine>False</GridHorzLine>
     <ShowWarningMessages>True</ShowWarningMessages>
     <SpaceMovesDown>False</SpaceMovesDown>
-    <DirBrackets>True</DirBrackets>
+    <DirBrackets>False</DirBrackets>
     <InplaceRename>False</InplaceRename>
     <InplaceRenameButton>False</InplaceRenameButton>
     <DblClickToParent>False</DblClickToParent>
