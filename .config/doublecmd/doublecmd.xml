@@ -205,7 +205,7 @@
     <DelayLoadingTabs>True</DelayLoadingTabs>
     <HighlightUpdatedFiles>True</HighlightUpdatedFiles>
     <DriveBlackList/>
-    <DriveBlackListUnmounted>False</DriveBlackListUnmounted>
+    <DriveBlackListUnmounted>True</DriveBlackListUnmounted>
   </Behaviours>
   <Tools>
     <Viewer Enabled="False">
