@@ -168,7 +168,7 @@
     <RunInTerminalCloseParams>-e sh -c {command}</RunInTerminalCloseParams>
     <JustRunTerminal>x-terminal-emulator</JustRunTerminal>
     <JustRunTermParams/>
-    <OnlyOneAppInstance>False</OnlyOneAppInstance>
+    <OnlyOneAppInstance>True</OnlyOneAppInstance>
     <LynxLike>True</LynxLike>
     <FileSizeFormat>0</FileSizeFormat>
     <OperationSizeFormat>0</OperationSizeFormat>
