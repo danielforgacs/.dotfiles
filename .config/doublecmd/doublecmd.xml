@@ -199,7 +199,7 @@
     <DateTimeFormat>dd/mm/yy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>False</ShowSystemFiles>
+    <ShowSystemFiles>True</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
@@ -358,7 +358,7 @@
     <KeyButtons>True</KeyButtons>
     <InterfaceFlat>True</InterfaceFlat>
     <DriveFreeSpace>True</DriveFreeSpace>
-    <DriveIndicator>False</DriveIndicator>
+    <DriveIndicator>True</DriveIndicator>
     <ProgressInMenuBar>False</ProgressInMenuBar>
     <PanelOfOperationsInBackground>True</PanelOfOperationsInBackground>
     <HorizontalFilePanels>False</HorizontalFilePanels>
