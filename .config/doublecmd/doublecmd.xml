@@ -344,7 +344,7 @@
     <DriveBarFlat>True</DriveBarFlat>
     <DrivesListButton Enabled="True">
       <ShowLabel>True</ShowLabel>
-      <ShowFileSystem>True</ShowFileSystem>
+      <ShowFileSystem>False</ShowFileSystem>
       <ShowFreeSpace>True</ShowFreeSpace>
     </DrivesListButton>
     <SeparateTree>False</SeparateTree>
