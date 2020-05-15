@@ -7,4 +7,5 @@
 	rebaseall = rebase --rebase-merges --keep-empty
 	staged = diff --staged
 	noff = merge --no-ff --no-edit
-
+[status]
+	showUntrackedFiles = all
