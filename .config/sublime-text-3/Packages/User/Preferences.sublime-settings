@@ -19,5 +19,7 @@
 	"show_errors_inline": false,
 	"show_line_endings": true,
 	"theme": "Adaptive.sublime-theme",
-	"ui_scale": 1.23
+	"ui_scale": 1.35,
+    "hot_exit": false
+
 }
