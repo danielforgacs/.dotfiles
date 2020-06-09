@@ -1,4 +1,8 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "editor.fontSize": 18
+    "editor.fontSize": 18,
+    "editor.dragAndDrop": false,
+    "editor.rulers": [
+        79
+    ]
 }
