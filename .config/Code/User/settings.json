@@ -1,3 +1,4 @@
 {
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 18
 }
