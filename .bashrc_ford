@@ -7,10 +7,19 @@ printf '\033[32m================================\n'
 echo '--> .bashrc_ford:'
 
 
-export HISTTIMEFORMAT="%d/%m/%y %T - "
+# ------------------------------------
+# Terminal config.
+
+export HISTTIMEFORMAT="%F %T "
 export HISTSIZE=25000
 # export HISTCONTROL=ignoreboth:erasedups
 # export HISTIGNORE=hh:exit
+export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
+
+
+# ------------------------------------
+# App config.
+
 export GIT_EDITOR=vim
 export PYTHONDONTWRITEBYTECODE=True
 # export PYTHONUNBUFFERED=1
@@ -18,19 +27,19 @@ export PYTHONDONTWRITEBYTECODE=True
 # export PYTHONVERBOSE=True
 # export PYTHONTHREADDEBUG=True
 
-if [ $(uname) == Linux ]
-then
-	export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
-else
-	echo not_linuz
-fi
+
+# ------------------------------------
+# Aliases
 
 alias hh='history'
 alias ll='ls -lAhuv --group-directories-first'
 alias lll='ls -lhuv --group-directories-first'
 alias cddev='cd $DEVDIR; ll'
 
-# GIT
+
+# ------------------------------------
+# Git Aliases
+
 alias gs='git status'
 alias gss='git status -u'
 alias gr='git reflog'
@@ -51,6 +60,9 @@ alias gll='git log --all'
 alias gg="git log --oneline --graph --decorate"
 alias ggg="git log --oneline --all --graph --decorate"
 alias gls='git shortlog --all'
+
+
+# ------------------------------------
 
 echo '.. host:' $HOSTNAME
 echo '.. dev dir:' $DEVDIR
