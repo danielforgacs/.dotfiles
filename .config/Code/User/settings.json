@@ -1,0 +1,17 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 18,
+    "editor.dragAndDrop": false,
+    "editor.rulers": [
+        79
+    ],
+    "editor.cursorWidth": 3,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.enableExperiments": false,
+    "workbench.settings.useSplitJSON": true,
+    "workbench.settings.openDefaultSettings": true,
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false
+}
