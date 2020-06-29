@@ -13,5 +13,6 @@
     "workbench.settings.useSplitJSON": true,
     "workbench.settings.openDefaultSettings": true,
     "telemetry.enableTelemetry": false,
-    "telemetry.enableCrashReporter": false
+    "telemetry.enableCrashReporter": false,
+    "markdown.preview.fontSize": 17
 }
