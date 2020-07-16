@@ -26,6 +26,7 @@ export PYTHONDONTWRITEBYTECODE=True
 # export PYTHONINSPECT=True
 # export PYTHONVERBOSE=True
 # export PYTHONTHREADDEBUG=True
+export PIPENV_VENV_IN_PROJECT=1
 
 
 # ------------------------------------
