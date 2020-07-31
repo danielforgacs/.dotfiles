@@ -22,6 +22,7 @@
 	"close_windows_when_empty": true,
 	"default_line_ending": "unix",
 	"draw_minimap_border": true,
+	"enable_tab_scrolling": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -42,7 +43,6 @@
 		".DS_Store",
 		"*.class",
 		"*.psd",
-		"*.db",
 		"*.sublime-workspace"
 	],
 	"folder_exclude_patterns":
@@ -59,7 +59,6 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"sublime-text-2-buildview",
 		"Vintage"
 	],
 	"line_padding_bottom": 0,
@@ -68,6 +67,5 @@
 	"show_errors_inline": false,
 	"show_line_endings": true,
 	"theme": "Adaptive.sublime-theme",
-	"ui_scale": 1.35,
-	"enable_tab_scrolling": false
+	"ui_scale": 1.35
 }
