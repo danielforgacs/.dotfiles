@@ -110,6 +110,11 @@ trim_trailing_whitespace = true" > .editorconfig
 	git add Pipfile
 	git commit -m 'Started pipenv pipfile.'
 
+	echo "DEBUG=1" > .env
+
+	git add .env
+	git commit -m "Started .env file."
+
 	echo 'version: "3.7"
 
 services:' > docker-compose.yml
