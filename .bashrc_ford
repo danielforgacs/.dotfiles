@@ -63,7 +63,57 @@ alias ggg="git log --oneline --all --graph --decorate"
 alias gls='git shortlog --all'
 
 
-# ------------------------------------
+
+initrepo() {
+	git commit --allow-empty -m "Initial commit."
+	
+	echo "# files:
+*.py[co]
+
+# directories:
+.venv/" > .gitignore
+
+	git add .gitignore
+	git commit -m "Started .gitignore; added python caches."
+
+	echo "*.py text eol=lf diff=python" > .gitattributes
+
+	git add .gitattributes
+	git commit -m "Started .gitattributes; configured python files."
+
+	echo "[pytest]
+addopts=--ff" > pytest.ini
+
+	git add pytest.ini
+	git commit -m "Started pytest config .ini"
+
+	echo "root = true
+
+[*.py]
+charset = utf-8
+end_of_line = lf
+indent_size = 4
+indent_style = space
+insert_final_newline = true
+trim_trailing_whitespace = true" > .editorconfig
+
+	git add .editorconfig
+	git commit -m "started editorconfig file; configured python files."
+
+	touch README.md
+
+	git add README.md
+	git commit -m 'Started readme.'
+
+	touch Pipfile
+
+	git add Pipfile
+	git commit -m 'Started pipenv pipfile.'
+
+	git checkout -b initial.dev
+}
+
+
 
 echo '.. host:' $HOSTNAME
 echo '.. dev dir:' $DEVDIR
