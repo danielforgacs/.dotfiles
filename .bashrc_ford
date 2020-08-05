@@ -36,7 +36,8 @@ alias hh='history'
 alias ll='ls -lAhuv --group-directories-first'
 alias lll='ls -lhuv --group-directories-first'
 alias cddev='cd $DEVDIR; ll'
-alias nukedocker="docker system prune --volumes --force --all"
+# alias nukedocker="docker system prune --volumes --force --all"
+alias nukedocker="docker ps -q | xargs docker kill; docker system prune --volumes --force --all"
 
 
 
