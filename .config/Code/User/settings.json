@@ -5,5 +5,8 @@
     "update.showReleaseNotes": false,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "workbench.enableExperiments": false
+    "workbench.enableExperiments": false,
+    "editor.tokenColorCustomizations": {
+        "comments": "#555555"
+    }
 }
