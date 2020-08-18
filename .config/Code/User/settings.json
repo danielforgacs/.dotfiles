@@ -2,9 +2,8 @@
     "workbench.startupEditor": "none",
     "window.zoomLevel": 1.35,
     "editor.minimap.enabled": false,
-    "workbench.enableExperiments": false,
     "update.showReleaseNotes": false,
-    "extensions.autoUpdate": false,
     "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "workbench.enableExperiments": false
 }
