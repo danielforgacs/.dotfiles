@@ -8,5 +8,8 @@
     "workbench.enableExperiments": false,
     "editor.tokenColorCustomizations": {
         "comments": "#555555"
-    }
+    },
+    "editor.rulers": [
+        79,
+    ]
 }
