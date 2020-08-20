@@ -10,6 +10,7 @@
         "comments": "#555555"
     },
     "[python]": {
+        "editor.trimAutoWhitespace": true,
         "editor.rulers": [
             79
         ]
@@ -19,5 +20,6 @@
     "editor.dragAndDrop": false,
     "editor.hover.sticky": false,
     "editor.stablePeek": true,
-    "editor.tabCompletion": "on"
+    "editor.tabCompletion": "on",
+    "editor.trimAutoWhitespace": false
 }
