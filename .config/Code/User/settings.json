@@ -9,7 +9,9 @@
     "editor.tokenColorCustomizations": {
         "comments": "#555555"
     },
-    "editor.rulers": [
-        79,
-    ]
+    "[python]": {
+        "editor.rulers": [
+            79
+        ]
+    }
 }
