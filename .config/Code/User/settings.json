@@ -33,5 +33,7 @@
     "files.trimFinalNewlines": true,
     "workbench.panel.defaultLocation": "right",
     "workbench.tree.indent": 16,
-    "workbench.view.alwaysShowHeaderActions": true
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.restoreViewState": false
 }
