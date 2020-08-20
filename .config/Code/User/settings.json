@@ -28,5 +28,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.minimap.renderCharacters": false,
     "editor.minimap.maxColumn": 79,
-    "files.eol": "\n"
+    "files.eol": "\n",
+    "files.maxMemoryForLargeFilesMB": 2048
 }
