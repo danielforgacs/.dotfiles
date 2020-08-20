@@ -24,5 +24,7 @@
     "editor.trimAutoWhitespace": false,
     "editor.cursorSurroundingLines": 1,
     "editor.cursorWidth": 3,
-    "diffEditor.ignoreTrimWhitespace": false
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.maxColumn": 79
 }
