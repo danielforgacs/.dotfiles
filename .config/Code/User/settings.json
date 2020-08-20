@@ -16,5 +16,6 @@
     },
     "editor.accessibilitySupport": "off",
     "editor.comments.ignoreEmptyLines": false,
-    "editor.dragAndDrop": false
+    "editor.dragAndDrop": false,
+    "editor.hover.sticky": false
 }
