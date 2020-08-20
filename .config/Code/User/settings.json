@@ -31,5 +31,7 @@
     "files.eol": "\n",
     "files.maxMemoryForLargeFilesMB": 2048,
     "files.trimFinalNewlines": true,
-    "workbench.panel.defaultLocation": "right"
+    "workbench.panel.defaultLocation": "right",
+    "workbench.tree.indent": 16,
+    "workbench.view.alwaysShowHeaderActions": true
 }
