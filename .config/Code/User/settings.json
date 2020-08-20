@@ -14,5 +14,7 @@
             79
         ]
     },
-    "editor.accessibilitySupport": "off"
+    "editor.accessibilitySupport": "off",
+    "editor.comments.ignoreEmptyLines": false,
+    "editor.dragAndDrop": false
 }
