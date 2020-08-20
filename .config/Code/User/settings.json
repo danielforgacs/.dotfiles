@@ -22,5 +22,6 @@
     "editor.stablePeek": true,
     "editor.tabCompletion": "on",
     "editor.trimAutoWhitespace": false,
-    "editor.cursorSurroundingLines": 1
+    "editor.cursorSurroundingLines": 1,
+    "editor.cursorWidth": 3
 }
