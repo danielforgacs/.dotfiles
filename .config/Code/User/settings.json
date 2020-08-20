@@ -30,5 +30,6 @@
     "editor.minimap.maxColumn": 79,
     "files.eol": "\n",
     "files.maxMemoryForLargeFilesMB": 2048,
-    "files.trimFinalNewlines": true
+    "files.trimFinalNewlines": true,
+    "workbench.panel.defaultLocation": "right"
 }
