@@ -10,14 +10,14 @@
         "comments": "#555555"
     },
     "[python]": {
-        "editor.trimAutoWhitespace": true,
+        "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": true,
         "editor.rulers": [
             79
         ]
     },
     "[html]": {
-        "editor.trimAutoWhitespace": true,
+        "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": true,
     },
     "editor.accessibilitySupport": "off",
@@ -25,7 +25,6 @@
     "editor.dragAndDrop": false,
     "editor.stablePeek": true,
     "editor.tabCompletion": "on",
-    "editor.trimAutoWhitespace": false,
     "editor.cursorSurroundingLines": 1,
     "editor.cursorWidth": 3,
     "diffEditor.ignoreTrimWhitespace": false,
