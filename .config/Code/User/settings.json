@@ -16,7 +16,7 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "update.showReleaseNotes": false,
-    "window.zoomLevel": 1.25,
+    "window.zoomLevel": 1.35,
     "workbench.colorTheme": "Monokai",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.restoreViewState": false,
@@ -39,6 +39,4 @@
         "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": true,
     },
-    "workbench.activityBar.visible": false,
-    "extensions.ignoreRecommendations": false,
 }

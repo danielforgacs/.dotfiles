@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="0.9.8 beta" ConfigVersion="10">
+<doublecmd DCVersion="0.9.6 beta" ConfigVersion="10">
   <Toolbars>
     <MainToolbar>
       <Row>
@@ -106,11 +106,6 @@
     <Position Save="True">
       <Maximized>True</Maximized>
       <Splitter>50</Splitter>
-      <Left>0</Left>
-      <Top>27</Top>
-      <Width>932</Width>
-      <Height>1016</Height>
-      <PixelsPerInch>96</PixelsPerInch>
     </Position>
   </MainWindow>
   <Tabs>
@@ -129,56 +124,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename=".download">/home/ford/storage/dev/DockerFiles/</Path>
-                  <Path Filename="DockerFiles">/home/ford/storage/dev/</Path>
-                  <Path Filename="mental">/home/ford/storage/</Path>
-                  <Path Filename="..">/home/ford/storage/mental/</Path>
-                  <Path Filename="misc">/home/ford/storage/</Path>
-                  <Path Filename="afroromance article">/home/ford/storage/misc/</Path>
-                  <Path Filename="Music">/home/ford/storage/</Path>
-                  <Path Filename="_download-012-26.Oct.2020">/home/ford/storage/Music/</Path>
-                  <Path Filename="Music">/home/ford/storage/</Path>
-                  <Path Filename="storage">/home/ford/</Path>
-                  <Path Filename="ford">/home/</Path>
-                  <Path Filename="media">/</Path>
-                  <Path Filename="ford">/media/</Path>
-                  <Path Filename="PENDRIVE_BACKUP">/media/ford/</Path>
-                  <Path Filename="___X___">/media/ford/PENDRIVE_BACKUP/</Path>
-                  <Path Filename="v30">/media/ford/PENDRIVE_BACKUP/___X___/</Path>
-                  <Path Filename="..">/media/ford/PENDRIVE_BACKUP/___X___/v30/</Path>
-                  <Path Filename="v030">/media/ford/PENDRIVE_BACKUP/___X___/</Path>
-                  <Path Filename="..">/media/ford/PENDRIVE_BACKUP/___X___/v030/</Path>
-                  <Path Filename="v030">/media/ford/PENDRIVE_BACKUP/___X___/</Path>
-                  <Path Filename="2">/media/ford/PENDRIVE_BACKUP/___X___/v030/</Path>
-                  <Path Filename="Deep In My Shining Ass - 4K.ph5e4a1dad36f02.480p.mp4">/media/ford/PENDRIVE_BACKUP/___X___/v030/2/</Path>
-                  <Path Filename="2">/media/ford/PENDRIVE_BACKUP/___X___/v030/</Path>
-                  <Path Filename="Jeune brunette offre son cul serré.480p.mp4">/media/ford/PENDRIVE_BACKUP/___X___/v030/2/</Path>
-                  <Path Filename="Best_sex_doll_compilation-ph5c6e7c3ae15e6.mp4">/media/ford/PENDRIVE_BACKUP/___X___/v030/</Path>
-                  <Path Filename="v030">/media/ford/PENDRIVE_BACKUP/___X___/</Path>
-                  <Path Filename=".Trash-1000">/media/ford/PENDRIVE_BACKUP/</Path>
-                  <Path Filename="..">/media/ford/PENDRIVE_BACKUP/.Trash-1000/</Path>
-                  <Path Filename="___X___">/media/ford/PENDRIVE_BACKUP/</Path>
-                  <Path Filename="PENDRIVE_BACKUP">/media/ford/</Path>
-                  <Path Filename="ford">/media/</Path>
-                  <Path Filename="home">/</Path>
-                  <Path Filename="ford">/home/</Path>
-                  <Path Filename="storage">/home/ford/</Path>
-                  <Path Filename="dev">/home/ford/storage/</Path>
-                  <Path Filename=".Phantom_testjob">/home/ford/storage/dev/</Path>
-                  <Path Filename="PhanGhon">/home/ford/storage/dev/.Phantom_testjob/</Path>
-                  <Path Filename="PhanGhon">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/</Path>
-                  <Path Filename="phantomname">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/</Path>
-                  <Path Filename="static">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/</Path>
-                  <Path Filename="phantomname">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/</Path>
-                  <Path Filename="..">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/phantomname/</Path>
-                  <Path Filename="phantomname">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/</Path>
-                  <Path Filename="..">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/phantomname/</Path>
-                  <Path Filename="phantomname">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/</Path>
-                  <Path Filename="static">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/</Path>
-                  <Path Filename="phantomname">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/</Path>
-                  <Path Filename="static">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/</Path>
-                  <Path Filename="phantomname">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/</Path>
-                  <Path Filename="..">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/phantomname/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -202,56 +148,7 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="_download-012-26.Oct.2020">/home/ford/storage/Music/</Path>
-                  <Path Filename="Music">/home/ford/storage/</Path>
-                  <Path Filename="storage">/home/ford/</Path>
-                  <Path Filename="ford">/home/</Path>
-                  <Path Filename="media">/</Path>
-                  <Path Filename="ford">/media/</Path>
-                  <Path Filename="PENDRIVE_BACKUP">/media/ford/</Path>
-                  <Path Filename="___X___">/media/ford/PENDRIVE_BACKUP/</Path>
-                  <Path Filename="v30">/media/ford/PENDRIVE_BACKUP/___X___/</Path>
-                  <Path Filename="..">/media/ford/PENDRIVE_BACKUP/___X___/v30/</Path>
-                  <Path Filename="v030">/media/ford/PENDRIVE_BACKUP/___X___/</Path>
-                  <Path Filename="..">/media/ford/PENDRIVE_BACKUP/___X___/v030/</Path>
-                  <Path Filename="v030">/media/ford/PENDRIVE_BACKUP/___X___/</Path>
-                  <Path Filename="2">/media/ford/PENDRIVE_BACKUP/___X___/v030/</Path>
-                  <Path Filename="Deep In My Shining Ass - 4K.ph5e4a1dad36f02.480p.mp4">/media/ford/PENDRIVE_BACKUP/___X___/v030/2/</Path>
-                  <Path Filename="2">/media/ford/PENDRIVE_BACKUP/___X___/v030/</Path>
-                  <Path Filename="Jeune brunette offre son cul serré.480p.mp4">/media/ford/PENDRIVE_BACKUP/___X___/v030/2/</Path>
-                  <Path Filename="Best_sex_doll_compilation-ph5c6e7c3ae15e6.mp4">/media/ford/PENDRIVE_BACKUP/___X___/v030/</Path>
-                  <Path Filename="v030">/media/ford/PENDRIVE_BACKUP/___X___/</Path>
-                  <Path Filename=".Trash-1000">/media/ford/PENDRIVE_BACKUP/</Path>
-                  <Path Filename="..">/media/ford/PENDRIVE_BACKUP/.Trash-1000/</Path>
-                  <Path Filename="___X___">/media/ford/PENDRIVE_BACKUP/</Path>
-                  <Path Filename="PENDRIVE_BACKUP">/media/ford/</Path>
-                  <Path Filename="ford">/media/</Path>
-                  <Path Filename="home">/</Path>
-                  <Path Filename="ford">/home/</Path>
-                  <Path Filename="storage">/home/ford/</Path>
-                  <Path Filename="dev">/home/ford/storage/</Path>
-                  <Path Filename=".Phantom_testjob">/home/ford/storage/dev/</Path>
-                  <Path Filename="PhanGhon">/home/ford/storage/dev/.Phantom_testjob/</Path>
-                  <Path Filename="PhanGhon">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/</Path>
-                  <Path Filename="phantomname">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/</Path>
-                  <Path Filename="static">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/</Path>
-                  <Path Filename="phantomname">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/</Path>
-                  <Path Filename="..">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/phantomname/</Path>
-                  <Path Filename="phantomname">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/</Path>
-                  <Path Filename="..">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/phantomname/</Path>
-                  <Path Filename="phantomname">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/static/</Path>
-                  <Path Filename="static">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/phantomname/</Path>
-                  <Path Filename="phantomname">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/PhanGhon/</Path>
-                  <Path Filename="PhanGhon">/home/ford/storage/dev/.Phantom_testjob/PhanGhon/</Path>
-                  <Path Filename="PhanGhon">/home/ford/storage/dev/.Phantom_testjob/</Path>
-                  <Path Filename=".Phantom_testjob">/home/ford/storage/dev/</Path>
-                  <Path Filename="edX">/home/ford/storage/</Path>
-                  <Path Filename="CS50_WebProg2020_dev">/home/ford/storage/edX/</Path>
-                  <Path Filename="danielforgacs">/home/ford/storage/edX/CS50_WebProg2020_dev/</Path>
-                  <Path Filename="auctions">/home/ford/storage/edX/CS50_WebProg2020_dev/danielforgacs/</Path>
-                  <Path Filename="static">/home/ford/storage/edX/CS50_WebProg2020_dev/danielforgacs/auctions/</Path>
-                  <Path Filename="auctions">/home/ford/storage/edX/CS50_WebProg2020_dev/danielforgacs/auctions/static/</Path>
-                  <Path Filename="..">/home/ford/storage/edX/CS50_WebProg2020_dev/danielforgacs/auctions/static/auctions/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -314,7 +211,7 @@
     <DateTimeFormat>dd/mm/yy hh:nn:ss</DateTimeFormat>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
-    <ShowSystemFiles>True</ShowSystemFiles>
+    <ShowSystemFiles>False</ShowSystemFiles>
     <ListFilesInThread>True</ListFilesInThread>
     <LoadIconsSeparately>True</LoadIconsSeparately>
     <DelayLoadingTabs>True</DelayLoadingTabs>
@@ -627,9 +524,7 @@
   <IgnoreList Enabled="False">
     <IgnoreListFile>%DC_CONFIG_PATH%/ignorelist.txt</IgnoreListFile>
   </IgnoreList>
-  <DirectoryHotList>
-    <HotDir Name="storage" Path="/home/ford/storage"/>
-  </DirectoryHotList>
+  <DirectoryHotList/>
   <Viewer>
     <PreviewVisible>False</PreviewVisible>
     <ImageStretch>False</ImageStretch>
@@ -646,7 +541,7 @@
     <NumberOfColumns>1</NumberOfColumns>
     <TabSpaces>8</TabSpaces>
     <MaxTextWidth>1024</MaxTextWidth>
-    <ViewerMode>1</ViewerMode>
+    <ViewerMode>0</ViewerMode>
     <PaintColor>255</PaintColor>
     <BackgroundColor>0</BackgroundColor>
     <FontColor>16777215</FontColor>
@@ -780,7 +675,7 @@
         <Column>
           <Title>Name</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>415</Width>
+          <Width>456</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
