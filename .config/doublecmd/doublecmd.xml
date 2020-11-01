@@ -226,8 +226,8 @@
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
     </Viewer>
-    <Editor Enabled="False">
-      <Path/>
+    <Editor Enabled="True">
+      <Path>subl</Path>
       <Parameters/>
       <RunInTerminal>False</RunInTerminal>
       <KeepTerminalOpen>False</KeepTerminalOpen>
