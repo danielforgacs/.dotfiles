@@ -1,3 +1,9 @@
+// install expention:
+// $ code --install-extension ms-python.python
+//
+// Extenstions:
+// ms-python.python
+
 {
     "diffEditor.ignoreTrimWhitespace": false,
     // "editor.accessibilitySupport": "off",
