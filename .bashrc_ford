@@ -88,6 +88,17 @@ addopts=--ff" > pytest.ini
 	git add pytest.ini
 	git commit -m "Started pytest config .ini"
 
+	echo "[MESSAGES CONTROL]
+
+disable=missing-module-docstring,
+      missing-class-docstring,
+      missing-function-docstring,
+      too-few-public-methods,
+      no-member," > .pylintrc
+
+	git add .pylintrc
+	git commit -m "Started pylintrc."
+
 	echo "root = true
 
 [*.py]
