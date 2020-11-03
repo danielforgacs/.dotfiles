@@ -117,7 +117,20 @@ trim_trailing_whitespace = true" > .editorconfig
 	git add README.md
 	git commit -m 'Started readme.'
 
-	touch Pipfile
+	echo "[[source]]
+url = \"https://pypi.python.org/simple\"
+verify_ssl = true
+name = \"pypi\"
+
+[packages]
+
+[dev-packages]
+pytest = \"*\"
+pylint = \"*\"
+
+[requires]
+python_version = \"3.8\"
+" > Pipfile
 
 	git add Pipfile
 	git commit -m 'Started pipenv pipfile.'
