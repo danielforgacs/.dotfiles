@@ -3,6 +3,10 @@
     {
         "key": "ctrl+'",
         "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "ctrl+j ctrl+j",
+        "command": "editor.action.joinLines"
     }
     // {
     //     "key": "ctrl+j ctrl+j",
