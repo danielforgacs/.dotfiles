@@ -22,7 +22,7 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     // "update.showReleaseNotes": false,
-    "window.zoomLevel": 1.2,
+    "window.zoomLevel": 1,
     // "workbench.colorTheme": "Monokai",
     "workbench.editor.highlightModifiedTabs": true,
     // "workbench.editor.restoreViewState": false,
@@ -45,5 +45,6 @@
         "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": true,
     },
+    "editor.fontSize": 13,
     "editor.minimap.enabled": false,
 }
