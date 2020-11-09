@@ -7,6 +7,10 @@
     {
         "key": "ctrl+j ctrl+j",
         "command": "editor.action.joinLines"
+    },
+    {
+        "key": "ctrl+alt+[Minus]",
+        "command": "workbench.action.navigateBack"
     }
     // {
     //     "key": "ctrl+j ctrl+j",
