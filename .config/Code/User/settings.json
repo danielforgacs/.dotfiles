@@ -4,6 +4,7 @@
 // Extenstions:
 // ms-python.python
 // alefragnani.Bookmarks
+// EditorConfig.EditorConfig
 
 {
     "diffEditor.ignoreTrimWhitespace": false,
