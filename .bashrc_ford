@@ -152,6 +152,17 @@ services:' > docker-compose.yml
 	git add Makefile
 	git commit -m 'Started makefile.'
 
+	mkdir -p .github/workflows
+	echo "name:
+
+on:
+
+jobs:
+" > .github/workflows/workflow.yml
+
+	git add .github/workflows/workflow.yml
+	git commit -m 'Started github workflow action yaml config file.'
+
 	git checkout -b initial.dev
 }
 
