@@ -66,8 +66,14 @@ alias gls='git shortlog --all'
 
 
 initrepo() {
+	if [ ! -d .git ]; then
+		# Initializing git repo if there's no .git dir.
+		git init
+	fi;
+
 	git commit --allow-empty -m "Initial commit."
 	
+	# GITIGNORE
 	echo "# files:
 *.py[co]
 
@@ -77,17 +83,20 @@ initrepo() {
 	git add .gitignore
 	git commit -m "Started .gitignore; added python caches."
 
+	# GITATTRIBUTES
 	echo "*.py text eol=lf diff=python" > .gitattributes
 
 	git add .gitattributes
 	git commit -m "Started .gitattributes; configured python files."
 
+	# PYTEST
 	echo "[pytest]
 addopts=--ff" > pytest.ini
 
 	git add pytest.ini
 	git commit -m "Started pytest config .ini"
 
+	# PYLINT
 	echo "[MESSAGES CONTROL]
 
 disable=missing-module-docstring,
@@ -99,6 +108,7 @@ disable=missing-module-docstring,
 	git add .pylintrc
 	git commit -m "Started pylintrc."
 
+	# EDITORCONFIG
 	echo "root = true
 
 [*.py]
@@ -112,11 +122,13 @@ trim_trailing_whitespace = true" > .editorconfig
 	git add .editorconfig
 	git commit -m "started editorconfig file; configured python files."
 
+	# README
 	touch README.md
 
 	git add README.md
 	git commit -m 'Started readme.'
 
+	# PIPFILE
 	echo "[[source]]
 url = \"https://pypi.python.org/simple\"
 verify_ssl = true
@@ -135,11 +147,13 @@ python_version = \"3.8\"
 	git add Pipfile
 	git commit -m 'Started pipenv pipfile.'
 
+	# .ENV
 	echo "DEBUG=1" > .env
 
 	git add .env
 	git commit -m "Started .env file."
 
+	# DOCKER-COMPOSE
 	echo 'version: "3.7"
 
 services:' > docker-compose.yml
@@ -147,11 +161,13 @@ services:' > docker-compose.yml
 	git add docker-compose.yml
 	git commit -m "Started docker compose yaml."
 
+	# MAKEFILE
 	touch Makefile
 
 	git add Makefile
 	git commit -m 'Started makefile.'
 
+	# GITHUB ACTIONS:
 	mkdir -p .github/workflows
 	echo "name:
 
