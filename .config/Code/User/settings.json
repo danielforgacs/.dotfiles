@@ -1,32 +1,40 @@
+// install expention:
+// $ code --install-extension ms-python.python
+//
+// Extenstions:
+// ms-python.python
+// alefragnani.Bookmarks
+// EditorConfig.EditorConfig
+
 {
     "diffEditor.ignoreTrimWhitespace": false,
-    "editor.accessibilitySupport": "off",
-    "editor.comments.ignoreEmptyLines": false,
-    "editor.cursorSurroundingLines": 3,
+    // "editor.accessibilitySupport": "off",
+    // "editor.comments.ignoreEmptyLines": false,
+    // "editor.cursorSurroundingLines": 3,
     "editor.cursorWidth": 3,
     "editor.dragAndDrop": false,
-    "editor.minimap.enabled": false,
-    "editor.minimap.maxColumn": 79,
-    "editor.minimap.renderCharacters": false,
-    "editor.stablePeek": true,
-    "editor.tabCompletion": "off",
-    "files.eol": "\n",
-    "files.maxMemoryForLargeFilesMB": 2048,
-    "files.trimFinalNewlines": true,
+    // "editor.minimap.enabled": false,
+    // "editor.minimap.maxColumn": 79,
+    // "editor.minimap.renderCharacters": false,
+    // "editor.stablePeek": true,
+    // "editor.tabCompletion": "off",
+    // "files.eol": "\n",
+    // "files.maxMemoryForLargeFilesMB": 2048,
+    // "files.trimFinalNewlines": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "update.showReleaseNotes": false,
-    "window.zoomLevel": 1.35,
-    "workbench.colorTheme": "Monokai",
+    // "update.showReleaseNotes": false,
+    "window.zoomLevel": 1,
+    // "workbench.colorTheme": "Monokai",
     "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.restoreViewState": false,
+    // "workbench.editor.restoreViewState": false,
     "workbench.enableExperiments": false,
-    "workbench.panel.defaultLocation": "left",
+    // "workbench.panel.defaultLocation": "left",
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 26,
-    "workbench.view.alwaysShowHeaderActions": true,
+    // "workbench.view.alwaysShowHeaderActions": true,
     "editor.tokenColorCustomizations": {
-        "comments": "#555555"
+        "comments": "#555555",
     },
     "[python]": {
         "files.trimTrailingWhitespace": true,
@@ -39,4 +47,8 @@
         "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": true,
     },
+    "editor.fontSize": 14,
+    "editor.minimap.enabled": false,
+    "workbench.panel.defaultLocation": "right",
+    "explorer.compactFolders": false
 }
