@@ -5,6 +5,7 @@
 // ms-python.python
 // alefragnani.Bookmarks
 // EditorConfig.EditorConfig
+// ms-python.vscode-pylance
 
 {
     "diffEditor.ignoreTrimWhitespace": false,
