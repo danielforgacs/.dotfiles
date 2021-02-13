@@ -7,5 +7,6 @@
 	rebaseall = rebase --rebase-merges --keep-empty
 	staged = diff --staged
 	noff = merge --no-ff --no-edit
+	cln = clean -xdf -e .venv
 [status]
 	showUntrackedFiles = all
