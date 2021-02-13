@@ -178,8 +178,6 @@ jobs:
 
 	git add .github/workflows/workflow.yml
 	git commit -m 'Started github workflow action yaml config file.'
-
-	git checkout -b initial.dev
 }
 
 
