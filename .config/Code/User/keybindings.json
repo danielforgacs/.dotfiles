@@ -11,6 +11,10 @@
     {
         "key": "ctrl+alt+[Minus]",
         "command": "workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+b",
+        "command": "workbench.action.toggleActivityBarVisibility"
     }
     // {
     //     "key": "ctrl+j ctrl+j",
