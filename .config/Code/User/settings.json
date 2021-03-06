@@ -37,6 +37,7 @@
     "editor.tokenColorCustomizations": {
         "comments": "#555555",
     },
+    "files.trimFinalNewlines": true,
     "[python]": {
         "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": true,
