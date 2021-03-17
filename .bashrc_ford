@@ -71,8 +71,11 @@ initrepo() {
 		git init
 	fi;
 
+	initbranch=repo.init
+
 	git commit --allow-empty -m "Initial commit."
-	
+	git checkout -b $initbranch
+
 	# GITIGNORE
 	echo "# files:
 *.py[co]
@@ -178,7 +181,7 @@ jobs:
   test:
     
     runs-on: ubuntu-20.04
-    timeout-minutes: 5
+    timeout-minutes: 15
 
     steps:
       - name: actions/checkout@v2
@@ -201,6 +204,12 @@ jobs:
 
 	git add .github/workflows/workflow.yml
 	git commit -m 'Started github workflow action yaml config file.'
+
+	git checkout master
+	git merge --no-ff --no-edit $initbranch
+	git branch -d $initbranch
+
+	git log --oneline --all --graph --decorate
 }
 
 
