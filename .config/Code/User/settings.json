@@ -24,8 +24,6 @@
     // "files.trimFinalNewlines": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    // "update.showReleaseNotes": false,
-    "window.zoomLevel": 1,
     // "workbench.colorTheme": "Monokai",
     "workbench.editor.highlightModifiedTabs": true,
     // "workbench.editor.restoreViewState": false,
@@ -49,14 +47,26 @@
         "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": true,
     },
-    "editor.fontSize": 14,
+    "editor.fontSize": 13,
     "editor.minimap.enabled": false,
     "workbench.panel.defaultLocation": "right",
     "explorer.compactFolders": false,
     "python.analysis.diagnosticMode": "workspace",
     "python.languageServer": "Pylance",
     "diffEditor.renderSideBySide": false,
-    "python.analysis.autoImportCompletions": false
+    "python.analysis.autoImportCompletions": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "workbench.activityBar.visible": false,
     "python.showStartPage": false,
-    "editor.comments.ignoreEmptyLines": false
+    "editor.renderWhitespace": "none",
+    "editor.comments.ignoreEmptyLines": false,
+    "editor.suggestSelection": "first",
+    "search.quickOpen.includeHistory": false,
+    "editor.renderControlCharacters": true,
+    "window.zoomLevel": 2
 }
