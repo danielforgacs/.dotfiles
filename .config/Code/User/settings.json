@@ -194,4 +194,14 @@
     "breadcrumbs.symbolSortOrder": "position",
 
     "outline.icons": true,
+
+    "git.enabled": true,
+    "git.decorations.enabled": true,
+    "git.enableSmartCommit": true,
+    "git.enableStatusBarSync": false,
+    "git.showPushSuccessNotification": true,
+    "git.smartCommitChanges": "tracked",
+
+
+
 }
