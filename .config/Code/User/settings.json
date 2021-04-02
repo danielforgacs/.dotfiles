@@ -8,9 +8,10 @@
 // ms-python.vscode-pylance
 
 {
-  "files.autoSave": "off",
-    "editor.renderWhitespace": "selection",
-    "editor.insertSpaces": true,
+    // Files
+    "files.autoSave": "off",
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -18,10 +19,10 @@
         "**/CVS": true,
         "**/.DS_Store": true
     },
-    "workbench.editor.enablePreview": false,
-    "diffEditor.codeLens": true,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.renderSideBySide": false,
+
+    // editor
+    "editor.renderWhitespace": "selection",
+    "editor.insertSpaces": true,
     "editor.accessibilitySupport": "off",
     "editor.comments.ignoreEmptyLines": false,
     "editor.cursorSurroundingLines": 3,
@@ -38,11 +39,6 @@
     "editor.maxTokenizationLineLength": 20000,
     "editor.minimap.enabled": false,
     "editor.parameterHints.enabled": true,
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
-    },
     "editor.renderControlCharacters": true,
     "editor.renderLineHighlight": "all",
     "editor.rulers": [79],
@@ -58,36 +54,55 @@
     "editor.stickyTabStops": true,
     "editor.suggest.insertMode": "insert",
     "editor.suggest.localityBonus": false,
-    "editor.tokenColorCustomizations": {
-        "comments": "#555555",
-    },
     "editor.trimAutoWhitespace": true,
     "editor.wordBasedSuggestions": true,
     "editor.wordBasedSuggestionsMode": "matchingDocuments",
     "editor.wordWrap": "off",
     "editor.wordWrapColumn": 80,
     "editor.wrappingIndent": "same",
+    "editor.fontSize": 13,
+    "editor.suggestSelection": "first",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.tokenColorCustomizations": {
+        // "comments": "#555555",
+    },
 
-
-
-
-
-
-
-
-
-
-
-
-
-    "files.eol": "\n",
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    // workbench
+    "workbench.editor.enablePreview": false,
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.enableExperiments": false,
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 26,
-    "files.trimFinalNewlines": true,
+    "workbench.panel.defaultLocation": "right",
+    "workbench.settings.useSplitJSON": true,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.activityBar.visible": false,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+
+    // diffEditor
+    "diffEditor.codeLens": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+
+    // explorer
+    "explorer.compactFolders": false,
+
+    // python
+    "python.analysis.diagnosticMode": "workspace",
+    "python.languageServer": "Pylance",
+    "python.analysis.autoImportCompletions": false,
+    "python.showStartPage": false,
+
+    // format specific
     "[python]": {
         "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": true,
@@ -99,23 +114,10 @@
         "files.trimTrailingWhitespace": true,
         "files.insertFinalNewline": true,
     },
-    "editor.fontSize": 13,
-    "workbench.panel.defaultLocation": "right",
-    "explorer.compactFolders": false,
-    "python.analysis.diagnosticMode": "workspace",
-    "python.languageServer": "Pylance",
-    "python.analysis.autoImportCompletions": false,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
-    "python.showStartPage": false,
-    "editor.suggestSelection": "first",
+
+    // misc
     "search.quickOpen.includeHistory": false,
     "window.zoomLevel": 2,
-    "workbench.settings.useSplitJSON": true,
-    "workbench.settings.openDefaultSettings": true,
-    "workbench.activityBar.visible": false
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false
 }
