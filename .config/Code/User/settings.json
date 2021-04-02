@@ -13,6 +13,7 @@
     "files.eol": "\n",
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -122,14 +123,14 @@
     // format specific
     "[python]": {
         // "files.trimTrailingWhitespace": true,
-        "files.insertFinalNewline": true,
+        // "files.insertFinalNewline": true,
         "editor.rulers": [
             79
         ]
     },
     "[html]": {
         // "files.trimTrailingWhitespace": true,
-        "files.insertFinalNewline": true,
+        // "files.insertFinalNewline": true,
     },
 
     // misc
