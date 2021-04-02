@@ -173,7 +173,17 @@
     "launch": {
         "configurations": [],
         "compounds": []
-      }
+      },
+
+    "terminal.explorerKind": "integrated",
+    "terminal.external.linuxExec": "x-terminal-emulator",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.experimentalLinkProvider": false,
+    "terminal.integrated.shell.linux": null,
+    "terminal.integrated.shellArgs.linux": [],
+    "terminal.integrated.showExitAlert": true,
+
 
 
 }
