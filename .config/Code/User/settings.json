@@ -113,6 +113,9 @@
 
     // explorer
     "explorer.compactFolders": false,
+    "explorer.incrementalNaming": "smart",
+    "explorer.openEditors.visible": 0,
+    "explorer.sortOrder": "type",
 
     // python
     "python.analysis.diagnosticMode": "workspace",
