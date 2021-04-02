@@ -139,5 +139,22 @@
     // misc
     "search.quickOpen.includeHistory": false,
     "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false
+    "telemetry.enableTelemetry": false,
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
+    "search.followSymlinks": true,
+    "search.quickOpen.includeSymbols": true,
+    "search.searchEditor.defaultNumberOfContextLines": 5,
+    "search.searchOnType": true,
+    "search.seedOnFocus": false,
+    "search.showLineNumbers": true,
+    "search.sortOrder": "default",
+    "search.useGlobalIgnoreFiles": true,
+    "search.useIgnoreFiles": true,
+
+
+    "search.mode": "newEditor",
 }
