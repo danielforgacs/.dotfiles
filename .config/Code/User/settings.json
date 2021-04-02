@@ -184,6 +184,9 @@
     "terminal.integrated.shellArgs.linux": [],
     "terminal.integrated.showExitAlert": true,
 
+    "problems.autoReveal": true,
+    "problems.decorations.enabled": true,
+    "problems.showCurrentInStatus": false
 
 
 }
