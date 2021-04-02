@@ -129,7 +129,8 @@
         // "files.insertFinalNewline": true,
         "editor.rulers": [
             79
-        ]
+        ],
+        "editor.wordBasedSuggestions": true
     },
     "[html]": {
         // "files.trimTrailingWhitespace": true,
@@ -192,4 +193,5 @@
     "breadcrumbs.filePath": "on",
     "breadcrumbs.symbolSortOrder": "position",
 
+    "outline.icons": true,
 }
