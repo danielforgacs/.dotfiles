@@ -154,6 +154,7 @@
     "search.sortOrder": "default",
     "search.useGlobalIgnoreFiles": true,
     "search.useIgnoreFiles": true,
+    "update.showReleaseNotes": false,
 
 
     "search.mode": "newEditor",
