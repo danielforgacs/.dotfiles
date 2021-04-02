@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
     {
         "key": "ctrl+'",
@@ -16,12 +15,8 @@
         "key": "alt+b",
         "command": "workbench.action.toggleActivityBarVisibility"
     }
-    // {
-    //     "key": "ctrl+j ctrl+j",
-    //     "command": "editor.action.joinLines"
-    // },
-    // {
-    //     "key": "ctrl+alt+m",
-    //     "command": "editor.emmet.action.matchTag"
-    // }
+    {
+        "key": "ctrl+alt+m",
+        "command": "editor.emmet.action.matchTag"
+    }
 ]
