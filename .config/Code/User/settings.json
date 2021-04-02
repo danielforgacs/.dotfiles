@@ -154,8 +154,26 @@
     "search.sortOrder": "default",
     "search.useGlobalIgnoreFiles": true,
     "search.useIgnoreFiles": true,
+    "search.mode": "newEditor",
+
     "update.showReleaseNotes": false,
 
 
-    "search.mode": "newEditor",
+    // debug
+    "debug.allowBreakpointsEverywhere": false,
+    "debug.console.closeOnEnd": true,
+    "debug.console.collapseIdenticalLines": false,
+    "debug.inlineValues": true,
+    "debug.internalConsoleOptions": "neverOpen",
+    "debug.openDebug": "neverOpen",
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.showInStatusBar": "always",
+    "debug.terminal.clearBeforeReusing": true,
+    "debug.toolBarLocation": "docked",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+      }
+
+
 }
