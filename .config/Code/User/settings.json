@@ -100,6 +100,11 @@
     "workbench.settings.openDefaultKeybindings": true,
     "workbench.view.alwaysShowHeaderActions": true,
 
+    // window
+    "window.customMenuBarAltFocus": false,
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+    "window.zoomLevel": 1.6,
+
     // diffEditor
     "diffEditor.codeLens": true,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -129,7 +134,6 @@
 
     // misc
     "search.quickOpen.includeHistory": false,
-    "window.zoomLevel": 2,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false
 }
