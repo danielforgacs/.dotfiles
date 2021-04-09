@@ -8,65 +8,220 @@
 // ms-python.vscode-pylance
 
 {
-    "diffEditor.ignoreTrimWhitespace": false,
-    // "editor.accessibilitySupport": "off",
-    // "editor.comments.ignoreEmptyLines": false,
-    // "editor.cursorSurroundingLines": 3,
+    // Files
+    "files.autoSave": "off",
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+
+    // editor
+    "editor.renderWhitespace": "selection",
+    "editor.insertSpaces": true,
+    "editor.accessibilitySupport": "off",
+    "editor.comments.ignoreEmptyLines": false,
+    "editor.cursorSurroundingLines": 3,
     "editor.cursorWidth": 3,
     "editor.dragAndDrop": false,
-    // "editor.minimap.enabled": false,
-    // "editor.minimap.maxColumn": 79,
-    // "editor.minimap.renderCharacters": false,
-    // "editor.stablePeek": true,
-    // "editor.tabCompletion": "off",
-    // "files.eol": "\n",
-    // "files.maxMemoryForLargeFilesMB": 2048,
-    // "files.trimFinalNewlines": true,
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    // "workbench.colorTheme": "Monokai",
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.find.autoFindInSelection": "multiline",
+    "editor.foldingStrategy": "auto",
+    "editor.hover.enabled": true,
+    "editor.hover.sticky": true,
+    "editor.inlineHints.enabled": true,
+    "editor.lightbulb.enabled": true,
+    "editor.linkedEditing": false,
+    "editor.maxTokenizationLineLength": 20000,
+    "editor.minimap.enabled": false,
+    "editor.parameterHints.enabled": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderLineHighlight": "all",
+    "editor.rulers": [79],
+    "editor.selectionHighlight": true,
+    "editor.semanticHighlighting.enabled": "configuredByTheme",
+    "editor.semanticTokenColorCustomizations": {},
+    "editor.showFoldingControls": "mouseover",
+    "editor.showUnused": true,
+    "editor.smartSelect.selectLeadingAndTrailingWhitespace": true,
+    "editor.smoothScrolling": false,
+    "editor.snippetSuggestions": "inline",
+    "editor.stablePeek": true,
+    "editor.stickyTabStops": true,
+    "editor.suggest.insertMode": "insert",
+    "editor.suggest.localityBonus": false,
+    "editor.trimAutoWhitespace": true,
+    "editor.wordBasedSuggestions": true,
+    "editor.wordBasedSuggestionsMode": "matchingDocuments",
+    "editor.wordWrap": "off",
+    "editor.wordWrapColumn": 80,
+    "editor.wrappingIndent": "same",
+    "editor.fontSize": 13,
+    "editor.suggestSelection": "first",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.tokenColorCustomizations": {
+        // "comments": "#555555",
+    },
+
+    // workbench
+    "workbench.editor.enablePreview": false,
     "workbench.editor.highlightModifiedTabs": true,
-    // "workbench.editor.restoreViewState": false,
     "workbench.enableExperiments": false,
-    // "workbench.panel.defaultLocation": "left",
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 26,
-    // "workbench.view.alwaysShowHeaderActions": true,
-    "editor.tokenColorCustomizations": {
-        "comments": "#555555",
-    },
-    "files.trimFinalNewlines": true,
-    "[python]": {
-        "files.trimTrailingWhitespace": true,
-        "files.insertFinalNewline": true,
-        "editor.rulers": [
-            79
-        ]
-    },
-    "[html]": {
-        "files.trimTrailingWhitespace": true,
-        "files.insertFinalNewline": true,
-    },
-    "editor.fontSize": 13,
-    "editor.minimap.enabled": false,
+    "workbench.tree.renderIndentGuides": "always",
     "workbench.panel.defaultLocation": "right",
-    "explorer.compactFolders": false,
-    "python.analysis.diagnosticMode": "workspace",
-    "python.languageServer": "Pylance",
-    "diffEditor.renderSideBySide": false,
-    "python.analysis.autoImportCompletions": false,
+    "workbench.settings.useSplitJSON": true,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.activityBar.visible": false,
     "workbench.editorAssociations": [
         {
             "viewType": "jupyter.notebook.ipynb",
             "filenamePattern": "*.ipynb"
         }
     ],
-    "workbench.activityBar.visible": false,
-    "python.showStartPage": false,
-    "editor.renderWhitespace": "none",
-    "editor.comments.ignoreEmptyLines": false,
-    "editor.suggestSelection": "first",
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.splitOnDragAndDrop": false,
+    "workbench.editor.tabCloseButton": "left",
+    "workbench.editor.wrapTabs": true,
+    "workbench.list.keyboardNavigation": "filter",
+    "workbench.panel.opensMaximized": "never",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.view.alwaysShowHeaderActions": true,
+
+    // window
+    "window.customMenuBarAltFocus": false,
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}${appName}",
+    "window.zoomLevel": 1.6,
+
+    // diffEditor
+    "diffEditor.codeLens": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+
+    // explorer
+    "explorer.compactFolders": false,
+    "explorer.incrementalNaming": "smart",
+    "explorer.openEditors.visible": 0,
+    "explorer.sortOrder": "type",
+
+    // format specific
+    "[python]": {
+        // "files.trimTrailingWhitespace": true,
+        // "files.insertFinalNewline": true,
+        "editor.rulers": [
+            79
+        ],
+        "editor.wordBasedSuggestions": true
+    },
+    "[html]": {
+        // "files.trimTrailingWhitespace": true,
+        // "files.insertFinalNewline": true,
+    },
+
+    // misc
     "search.quickOpen.includeHistory": false,
-    "editor.renderControlCharacters": true,
-    "window.zoomLevel": 2
+
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
+    "search.followSymlinks": true,
+    "search.quickOpen.includeSymbols": true,
+    "search.searchEditor.defaultNumberOfContextLines": 5,
+    "search.searchOnType": true,
+    "search.seedOnFocus": false,
+    "search.showLineNumbers": true,
+    "search.sortOrder": "default",
+    "search.useGlobalIgnoreFiles": true,
+    "search.useIgnoreFiles": true,
+    "search.mode": "newEditor",
+
+    "update.showReleaseNotes": false,
+
+    "debug.allowBreakpointsEverywhere": false,
+    "debug.console.closeOnEnd": true,
+    "debug.console.collapseIdenticalLines": false,
+    "debug.inlineValues": true,
+    "debug.internalConsoleOptions": "neverOpen",
+    "debug.openDebug": "neverOpen",
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.showInStatusBar": "always",
+    "debug.terminal.clearBeforeReusing": true,
+    "debug.toolBarLocation": "docked",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+      },
+
+    "terminal.explorerKind": "integrated",
+    "terminal.external.linuxExec": "x-terminal-emulator",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.experimentalLinkProvider": false,
+    "terminal.integrated.shell.linux": null,
+    "terminal.integrated.shellArgs.linux": [],
+    "terminal.integrated.showExitAlert": true,
+
+    "problems.autoReveal": true,
+    "problems.decorations.enabled": true,
+    "problems.showCurrentInStatus": true,
+
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "on",
+    "breadcrumbs.symbolSortOrder": "position",
+
+    "outline.icons": true,
+
+    // Git
+    "git.enabled": true,
+    "git.decorations.enabled": true,
+    "git.enableSmartCommit": true,
+    "git.enableStatusBarSync": false,
+    "git.showPushSuccessNotification": true,
+    "git.smartCommitChanges": "tracked",
+
+    // python
+    "python.analysis.diagnosticMode": "workspace",
+    // "python.languageServer": "Jedi",
+    "python.languageServer": "Pylance",
+    "python.analysis.autoImportCompletions": false,
+    "python.showStartPage": false,
+    "python.analysis.memory.keepLibraryAst": false,
+    "python.autoComplete.addBrackets": true,
+    "python.defaultInterpreterPath": "python",
+    "python.diagnostics.sourceMapsEnabled": true,
+    "python.disableInstallationCheck": true,
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.formatting.provider": "autopep8",
+    "python.linting.lintOnSave": false,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "python",
+    "python.terminal.executeInFileDir": false,
+    "python.testing.pytestEnabled": false,
+    "python.testing.pytestArgs": [],
+    "python.workspaceSymbols.enabled": true,
+    "python.linting.enabled": false,
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py"
+    ],
+    "python.analysis.completeFunctionParens": true,
 }
