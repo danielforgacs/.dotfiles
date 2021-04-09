@@ -223,4 +223,5 @@
         ".vscode/*.py",
         "**/site-packages/**/*.py"
     ],
+    "python.analysis.completeFunctionParens": true,
 }
