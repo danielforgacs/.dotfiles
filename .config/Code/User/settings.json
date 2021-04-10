@@ -94,7 +94,7 @@
     "workbench.editor.labelFormat": "short",
     "workbench.editor.splitOnDragAndDrop": false,
     "workbench.editor.tabCloseButton": "left",
-    "workbench.editor.wrapTabs": true,
+    "workbench.editor.wrapTabs": false,
     "workbench.list.keyboardNavigation": "filter",
     "workbench.panel.opensMaximized": "never",
     "workbench.settings.editor": "json",
