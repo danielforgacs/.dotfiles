@@ -30,7 +30,7 @@
     "editor.cursorSurroundingLines": 3,
     "editor.cursorWidth": 3,
     "editor.dragAndDrop": false,
-    "editor.find.addExtraSpaceOnTop": false,
+    "editor.find.addExtraSpaceOnTop": true,
     "editor.find.autoFindInSelection": "multiline",
     "editor.foldingStrategy": "auto",
     "editor.hover.enabled": true,
