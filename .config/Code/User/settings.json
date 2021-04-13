@@ -11,9 +11,9 @@
     // Files
     "files.autoSave": "off",
     "files.eol": "\n",
+    "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -23,8 +23,6 @@
     },
 
     // editor
-    "editor.renderWhitespace": "selection",
-    "editor.insertSpaces": true,
     "editor.accessibilitySupport": "off",
     "editor.comments.ignoreEmptyLines": false,
     "editor.cursorSurroundingLines": 3,
@@ -33,9 +31,11 @@
     "editor.find.addExtraSpaceOnTop": true,
     "editor.find.autoFindInSelection": "multiline",
     "editor.foldingStrategy": "auto",
+    "editor.fontSize": 13,
     "editor.hover.enabled": true,
     "editor.hover.sticky": true,
     "editor.inlineHints.enabled": true,
+    "editor.insertSpaces": true,
     "editor.lightbulb.enabled": true,
     "editor.linkedEditing": false,
     "editor.maxTokenizationLineLength": 20000,
@@ -43,6 +43,7 @@
     "editor.parameterHints.enabled": true,
     "editor.renderControlCharacters": true,
     "editor.renderLineHighlight": "all",
+    "editor.renderWhitespace": "selection",
     "editor.rulers": [79],
     "editor.selectionHighlight": true,
     "editor.semanticHighlighting.enabled": "configuredByTheme",
@@ -56,14 +57,13 @@
     "editor.stickyTabStops": true,
     "editor.suggest.insertMode": "insert",
     "editor.suggest.localityBonus": false,
+    "editor.suggestSelection": "first",
     "editor.trimAutoWhitespace": true,
     "editor.wordBasedSuggestions": true,
     "editor.wordBasedSuggestionsMode": "matchingDocuments",
     "editor.wordWrap": "off",
     "editor.wordWrapColumn": 80,
     "editor.wrappingIndent": "same",
-    "editor.fontSize": 13,
-    "editor.suggestSelection": "first",
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
@@ -74,36 +74,36 @@
     },
 
     // workbench
+    "workbench.activityBar.iconClickBehavior": "focus",
+    "workbench.activityBar.visible": false,
     "workbench.editor.enablePreview": false,
     "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.labelFormat": "short",
+    "workbench.editor.splitOnDragAndDrop": false,
+    "workbench.editor.tabCloseButton": "left",
+    "workbench.editor.wrapTabs": false,
     "workbench.enableExperiments": false,
+    "workbench.list.keyboardNavigation": "filter",
+    "workbench.panel.defaultLocation": "right",
+    "workbench.panel.opensMaximized": "never",
+    "workbench.settings.editor": "json",
+    "workbench.settings.openDefaultKeybindings": true,
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": true,
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 26,
     "workbench.tree.renderIndentGuides": "always",
-    "workbench.panel.defaultLocation": "right",
-    "workbench.settings.useSplitJSON": true,
-    "workbench.settings.openDefaultSettings": true,
-    "workbench.activityBar.visible": false,
+    "workbench.view.alwaysShowHeaderActions": true,
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#383535",
+        "editor.lineHighlightBorder": "#574e4a"
+    },
     "workbench.editorAssociations": [
         {
             "viewType": "jupyter.notebook.ipynb",
             "filenamePattern": "*.ipynb"
         }
     ],
-    "workbench.activityBar.iconClickBehavior": "focus",
-    "workbench.editor.labelFormat": "short",
-    "workbench.editor.splitOnDragAndDrop": false,
-    "workbench.editor.tabCloseButton": "left",
-    "workbench.editor.wrapTabs": false,
-    "workbench.list.keyboardNavigation": "filter",
-    "workbench.panel.opensMaximized": "never",
-    "workbench.settings.editor": "json",
-    "workbench.settings.openDefaultKeybindings": true,
-    "workbench.view.alwaysShowHeaderActions": true,
-    "workbench.colorCustomizations": {
-        "editor.lineHighlightBackground": "#383535",
-        "editor.lineHighlightBorder": "#574e4a"
-    },
 
     // window
     "window.customMenuBarAltFocus": false,
@@ -136,17 +136,12 @@
     },
 
     // misc
-    "search.quickOpen.includeHistory": false,
-
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
 
-    "search.exclude": {
-        "**/node_modules": true,
-        "**/bower_components": true,
-        "**/*.code-search": true
-    },
     "search.followSymlinks": true,
+    "search.mode": "newEditor",
+    "search.quickOpen.includeHistory": false,
     "search.quickOpen.includeSymbols": true,
     "search.searchEditor.defaultNumberOfContextLines": 5,
     "search.searchOnType": true,
@@ -155,7 +150,11 @@
     "search.sortOrder": "default",
     "search.useGlobalIgnoreFiles": true,
     "search.useIgnoreFiles": true,
-    "search.mode": "newEditor",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true
+    },
 
     "update.showReleaseNotes": false,
 
@@ -169,6 +168,7 @@
     "debug.showInStatusBar": "always",
     "debug.terminal.clearBeforeReusing": true,
     "debug.toolBarLocation": "docked",
+
     "launch": {
         "configurations": [],
         "compounds": []
@@ -202,11 +202,10 @@
     "git.smartCommitChanges": "tracked",
 
     // python
-    "python.analysis.diagnosticMode": "workspace",
     // "python.languageServer": "Jedi",
-    "python.languageServer": "Pylance",
     "python.analysis.autoImportCompletions": false,
-    "python.showStartPage": false,
+    "python.analysis.completeFunctionParens": false,
+    "python.analysis.diagnosticMode": "workspace",
     "python.analysis.memory.keepLibraryAst": false,
     "python.autoComplete.addBrackets": true,
     "python.defaultInterpreterPath": "python",
@@ -214,18 +213,19 @@
     "python.disableInstallationCheck": true,
     "python.envFile": "${workspaceFolder}/.env",
     "python.formatting.provider": "autopep8",
+    "python.languageServer": "Pylance",
+    "python.linting.enabled": false,
     "python.linting.lintOnSave": false,
     "python.linting.pycodestyleEnabled": false,
     "python.linting.pylintEnabled": false,
     "python.pythonPath": "python",
+    "python.showStartPage": false,
     "python.terminal.executeInFileDir": false,
-    "python.testing.pytestEnabled": false,
     "python.testing.pytestArgs": [],
+    "python.testing.pytestEnabled": false,
     "python.workspaceSymbols.enabled": true,
-    "python.linting.enabled": false,
     "python.linting.ignorePatterns": [
         ".vscode/*.py",
         "**/site-packages/**/*.py"
     ],
-    "python.analysis.completeFunctionParens": false,
 }
