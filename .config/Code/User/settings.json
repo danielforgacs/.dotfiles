@@ -39,7 +39,7 @@
     "editor.insertSpaces": true,
     "editor.lightbulb.enabled": true,
     "editor.lineHeight": 19,
-    "editor.lineNumbers": "off",
+    "editor.lineNumbers": "on",
     "editor.linkedEditing": false,
     "editor.maxTokenizationLineLength": 20000,
     "editor.minimap.enabled": false,
@@ -123,6 +123,7 @@
     "explorer.incrementalNaming": "smart",
     "explorer.openEditors.visible": 0,
     "explorer.sortOrder": "type",
+    "explorer.autoReveal": false,
 
     // format specific
     "[python]": {
