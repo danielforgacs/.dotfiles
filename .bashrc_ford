@@ -57,7 +57,7 @@ alias ggg="git log --oneline --all --graph --decorate"
 alias gls='git shortlog --all'
 
 
-
+# initrepo /////////////////////////////////////
 initrepo() {
 	if [ ! -d .git ]; then
 		# Initializing git repo if there's no .git dir.
@@ -204,6 +204,7 @@ jobs:
 
 	git log --oneline --all --graph --decorate
 }
+# initrepo - end /////////////////////////////////////
 
 
 
