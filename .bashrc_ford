@@ -1,4 +1,4 @@
-# ADD THE NEX LINES TO .bashrc
+# ADD THE NEXT LINES TO .bashrc
 # export DEVDIR=/home/ford/storage/dev
 # source /home/ford/.bashrc_ford
 
@@ -12,8 +12,6 @@ echo '--> .bashrc_ford:'
 
 export HISTTIMEFORMAT="%F %T "
 export HISTSIZE=25000
-# export HISTCONTROL=ignoreboth:erasedups
-# export HISTIGNORE=hh:exit
 export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
 
 
@@ -22,10 +20,6 @@ export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]
 
 export GIT_EDITOR=vim
 export PYTHONDONTWRITEBYTECODE=True
-# export PYTHONUNBUFFERED=1
-# export PYTHONINSPECT=True
-# export PYTHONVERBOSE=True
-# export PYTHONTHREADDEBUG=True
 export PIPENV_VENV_IN_PROJECT=1
 
 
@@ -36,7 +30,6 @@ alias hh='history'
 alias ll='ls -lhuv --group-directories-first'
 alias lll='ls -lAhuv --group-directories-first'
 alias cddev='cd $DEVDIR; ll'
-# alias nukedocker="docker system prune --volumes --force --all"
 alias nukedocker="docker ps -q | xargs docker kill; docker system prune --volumes --force --all"
 
 
@@ -64,7 +57,7 @@ alias ggg="git log --oneline --all --graph --decorate"
 alias gls='git shortlog --all'
 
 
-
+# initrepo /////////////////////////////////////
 initrepo() {
 	if [ ! -d .git ]; then
 		# Initializing git repo if there's no .git dir.
@@ -211,6 +204,7 @@ jobs:
 
 	git log --oneline --all --graph --decorate
 }
+# initrepo - end /////////////////////////////////////
 
 
 
