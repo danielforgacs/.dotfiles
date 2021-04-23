@@ -2,10 +2,14 @@
 // $ code --install-extension ms-python.python
 //
 // Extenstions:
-// ms-python.python
 // alefragnani.Bookmarks
+// dbaeumer.vscode-eslint
 // EditorConfig.EditorConfig
+// ms-python.python
 // ms-python.vscode-pylance
+// ms-toolsai.jupyter
+// ms-vscode.hexeditor
+
 
 {
     // Files
