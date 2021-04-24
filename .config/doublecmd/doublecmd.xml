@@ -90,15 +90,9 @@
       </Right>
     </OpenedTabs>
   </Tabs>
-  <Colors>
-    <FreeSpaceIndicator>
-      <UseGradient>True</UseGradient>
-      <ForeColor>0</ForeColor>
-      <BackColor>16777215</BackColor>
-    </FreeSpaceIndicator>
-  </Colors>
   <Layout>
     <DriveBarFlat>False</DriveBarFlat>
+    <DriveIndicator>True</DriveIndicator>
   </Layout>
   <FileOperations>
     <RenameSelOnlyName>True</RenameSelOnlyName>
