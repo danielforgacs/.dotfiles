@@ -48,4 +48,8 @@
       <Quality>0</Quality>
     </Main>
   </Fonts>
+  <DirectoryHotList>
+    <HotDir Name="storage" Path="/home/ford/storage/"/>
+    <HotDir Name="media" Path="/media/ford/"/>
+  </DirectoryHotList>
 </doublecmd>
