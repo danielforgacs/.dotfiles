@@ -35,6 +35,11 @@
     </ColumnsSet>
   </ColumnsSets>
   <Behaviours>
+    <Mouse>
+      <Selection Enabled="True">
+        <Button>1</Button>
+      </Selection>
+    </Mouse>
     <DriveBlackListUnmounted>True</DriveBlackListUnmounted>
   </Behaviours>
   <Miscellaneous>
