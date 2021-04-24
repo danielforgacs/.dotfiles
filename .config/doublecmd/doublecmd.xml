@@ -97,4 +97,7 @@
     <RenameSelOnlyName>True</RenameSelOnlyName>
     <TypeOfDuplicatedRename>2</TypeOfDuplicatedRename>
   </FileOperations>
+  <AutoRefresh>
+    <Options>7</Options>
+  </AutoRefresh>
 </doublecmd>
