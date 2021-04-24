@@ -90,6 +90,9 @@
       </Right>
     </OpenedTabs>
   </Tabs>
+  <Layout>
+    <DriveBarFlat>False</DriveBarFlat>
+  </Layout>
   <FileOperations>
     <RenameSelOnlyName>True</RenameSelOnlyName>
     <TypeOfDuplicatedRename>2</TypeOfDuplicatedRename>
