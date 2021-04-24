@@ -40,4 +40,12 @@
   <Miscellaneous>
     <DirBrackets>False</DirBrackets>
   </Miscellaneous>
+  <Fonts>
+    <Main>
+      <Name>Monospace</Name>
+      <Size>13</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </Main>
+  </Fonts>
 </doublecmd>
