@@ -37,4 +37,7 @@
   <Behaviours>
     <DriveBlackListUnmounted>True</DriveBlackListUnmounted>
   </Behaviours>
+  <Miscellaneous>
+    <DirBrackets>False</DirBrackets>
+  </Miscellaneous>
 </doublecmd>
