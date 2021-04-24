@@ -34,4 +34,7 @@
       </Columns>
     </ColumnsSet>
   </ColumnsSets>
+  <Behaviours>
+    <DriveBlackListUnmounted>True</DriveBlackListUnmounted>
+  </Behaviours>
 </doublecmd>
