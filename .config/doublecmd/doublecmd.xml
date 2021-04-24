@@ -12,13 +12,11 @@
           <Title>Name</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
           <Width>425</Width>
-          <Align>0</Align>
         </Column>
         <Column>
           <Title>Ext</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
           <Width>87</Width>
-          <Align>0</Align>
         </Column>
         <Column>
           <Title>Size</Title>
@@ -30,13 +28,11 @@
           <Title>Date</Title>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
           <Width>174</Width>
-          <Align>1</Align>
         </Column>
         <Column>
           <Title>Attr</Title>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
           <Width>111</Width>
-          <Align>0</Align>
         </Column>
       </Columns>
     </ColumnsSet>
