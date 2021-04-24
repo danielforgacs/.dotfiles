@@ -57,4 +57,9 @@
     <HotDir Name="storage" Path="/home/ford/storage/"/>
     <HotDir Name="media" Path="/media/ford/"/>
   </DirectoryHotList>
+  <Tools>
+    <Editor Enabled="True">
+      <Path>code</Path>
+    </Editor>
+  </Tools>
 </doublecmd>
