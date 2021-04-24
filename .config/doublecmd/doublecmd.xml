@@ -4,7 +4,7 @@
     <UseConfigInProgramDir>False</UseConfigInProgramDir>
     <FolderTabs Save="True"/>
   </Configuration>
-  <ColumnsSets DefaultTitleHash="540805403">
+  <ColumnsSets>
     <ColumnsSet UseFrameCursor="False">
       <Name>Default</Name>
       <Columns>
