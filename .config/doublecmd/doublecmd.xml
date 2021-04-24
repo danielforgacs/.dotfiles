@@ -90,4 +90,7 @@
       </Right>
     </OpenedTabs>
   </Tabs>
+  <FileOperations>
+    <RenameSelOnlyName>True</RenameSelOnlyName>
+  </FileOperations>
 </doublecmd>
