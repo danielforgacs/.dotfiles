@@ -1,4 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doublecmd DCVersion="0.9.8 beta" ConfigVersion="10">
-  <Configuration Save="False"/>
+  <Configuration Save="False" SortOrder="1" TreeType="0">
+    <UseConfigInProgramDir>False</UseConfigInProgramDir>
+    <FolderTabs Save="True"/>
+  </Configuration>
+  <ColumnsSets DefaultTitleHash="540805403">
+    <ColumnsSet UseFrameCursor="False">
+      <Name>Default</Name>
+      <Columns>
+        <Column>
+          <Title>Name</Title>
+          <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
+          <Width>425</Width>
+          <Align>0</Align>
+        </Column>
+        <Column>
+          <Title>Ext</Title>
+          <FuncString>[DC().GETFILEEXT{}]</FuncString>
+          <Width>87</Width>
+          <Align>0</Align>
+        </Column>
+        <Column>
+          <Title>Size</Title>
+          <FuncString>[DC().GETFILESIZE{}]</FuncString>
+          <Width>116</Width>
+          <Align>1</Align>
+        </Column>
+        <Column>
+          <Title>Date</Title>
+          <FuncString>[DC().GETFILETIME{}]</FuncString>
+          <Width>174</Width>
+          <Align>1</Align>
+        </Column>
+        <Column>
+          <Title>Attr</Title>
+          <FuncString>[DC().GETFILEATTR{}]</FuncString>
+          <Width>111</Width>
+          <Align>0</Align>
+        </Column>
+      </Columns>
+    </ColumnsSet>
+  </ColumnsSets>
 </doublecmd>
