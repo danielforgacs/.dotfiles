@@ -8,28 +8,24 @@
         <Column>
           <Title>Name</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>425</Width>
+          <Width>500</Width>
         </Column>
         <Column>
           <Title>Ext</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>87</Width>
+          <Width>100</Width>
         </Column>
         <Column>
           <Title>Size</Title>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>116</Width>
+          <Width>105</Width>
           <Align>1</Align>
         </Column>
         <Column>
           <Title>Date</Title>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>174</Width>
-        </Column>
-        <Column>
-          <Title>Attr</Title>
-          <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>111</Width>
+          <Width>195</Width>
+          <Align>1</Align>
         </Column>
       </Columns>
     </ColumnsSet>
