@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <doublecmd DCVersion="0.9.8 beta" ConfigVersion="10">
-  <Configuration Save="False" SortOrder="1" TreeType="0">
-    <UseConfigInProgramDir>False</UseConfigInProgramDir>
-    <FolderTabs Save="True"/>
-  </Configuration>
+  <Configuration Save="False" />
   <ColumnsSets>
-    <ColumnsSet UseFrameCursor="False">
+    <ColumnsSet>
       <Name>Default</Name>
       <Columns>
         <Column>
