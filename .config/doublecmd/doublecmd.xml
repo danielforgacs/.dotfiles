@@ -102,6 +102,7 @@
     <Options>7</Options>
   </AutoRefresh>
   <Colors>
+    <UseFrameCursor>True</UseFrameCursor>
     <UseInvertedSelection>True</UseInvertedSelection>
     <InactivePanelBrightness>50</InactivePanelBrightness>
   </Colors>
