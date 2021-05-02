@@ -101,4 +101,7 @@
   <AutoRefresh>
     <Options>7</Options>
   </AutoRefresh>
+  <Colors>
+    <UseInvertedSelection>True</UseInvertedSelection>
+  </Colors>
 </doublecmd>
