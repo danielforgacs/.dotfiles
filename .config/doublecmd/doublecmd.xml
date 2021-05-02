@@ -93,6 +93,7 @@
   <Layout>
     <DriveBarFlat>False</DriveBarFlat>
     <DriveIndicator>True</DriveIndicator>
+    <ShortFormatDriveInfo>False</ShortFormatDriveInfo>
   </Layout>
   <FileOperations>
     <RenameSelOnlyName>True</RenameSelOnlyName>
