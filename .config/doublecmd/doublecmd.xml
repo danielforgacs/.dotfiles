@@ -103,5 +103,6 @@
   </AutoRefresh>
   <Colors>
     <UseInvertedSelection>True</UseInvertedSelection>
+    <InactivePanelBrightness>50</InactivePanelBrightness>
   </Colors>
 </doublecmd>
