@@ -106,4 +106,9 @@
     <UseInvertedSelection>True</UseInvertedSelection>
     <InactivePanelBrightness>50</InactivePanelBrightness>
   </Colors>
+  <FilesViews>
+    <Sorting>
+      <SortFolderMode>1</SortFolderMode>
+    </Sorting>
+  </FilesViews>
 </doublecmd>
