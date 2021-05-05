@@ -36,6 +36,7 @@
         <Button>1</Button>
       </Selection>
     </Mouse>
+    <ShowSystemFiles>True</ShowSystemFiles>
     <DriveBlackListUnmounted>True</DriveBlackListUnmounted>
   </Behaviours>
   <Miscellaneous>
