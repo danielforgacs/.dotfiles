@@ -110,6 +110,7 @@
   <FilesViews>
     <Sorting>
       <SortFolderMode>1</SortFolderMode>
+      <NaturalSorting>True</NaturalSorting>
     </Sorting>
   </FilesViews>
 </doublecmd>
