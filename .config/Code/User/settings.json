@@ -236,5 +236,6 @@
     ],
     "bookmarks.multicursor.toggleMode": "eachLineIndependently",
     "bookmarks.navigateThroughAllFiles": false,
-    "bookmarks.sideBar.expanded": true
+    "bookmarks.sideBar.expanded": true,
+    "outline.showVariables": false
 }
