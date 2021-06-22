@@ -1,6 +1,6 @@
 [user]
-	email = .@.
-	name = df@
+	email = dforgacs@outpost-vfx.com
+	name = dforgacs
 [credential]
 	helper = store
 [alias]
@@ -9,4 +9,4 @@
 	noff = merge --no-ff --no-edit
 	cln = clean -xdf -e .venv
 [status]
-	showUntrackedFiles = all
+	showUntrackedFiles = no
