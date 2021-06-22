@@ -9,4 +9,4 @@
 	noff = merge --no-ff --no-edit
 	cln = clean -xdf -e .venv
 [status]
-	showUntrackedFiles = no
+	showUntrackedFiles = all 
