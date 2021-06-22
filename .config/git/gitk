@@ -1,5 +1,5 @@
-set mainfont {sans 12}
-set textfont {monospace 12}
+set mainfont {sans 11}
+set textfont {monospace 11}
 set uifont {sans 9 bold}
 set tabstop 8
 set findmergefiles 0
@@ -18,7 +18,7 @@ set datetimeformat {%d-%m-%Y %H:%M:%S}
 set limitdiffs 1
 set uicolor grey85
 set want_ttk 1
-set bgcolor #464641
+set bgcolor #938883
 set fgcolor black
 set uifgcolor black
 set uifgdisabledcolor #999
