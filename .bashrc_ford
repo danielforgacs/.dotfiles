@@ -215,3 +215,10 @@ echo '.. python 3: ' `which python3`
 echo '.. git: ' `which git`
 echo '--> .bashrc_ford sourced...'
 printf '\033[32m================================\n'
+
+
+
+resetshottgun () {
+	rm -rf ~/.config/Shotgun\ Software/
+	rm -rf ~/.shotgun/
+}
