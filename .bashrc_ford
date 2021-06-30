@@ -12,7 +12,7 @@ echo '--> .bashrc_ford:'
 
 # https://anotheruiguy.gitbooks.io/gitforeveryone/content/auto/README.html
 # download git prompt to get __git_ps1
-. .git-prompt.sh
+. /home/dforgacs/.git-prompt.sh
 
 export HISTTIMEFORMAT="%F %T "
 export HISTSIZE=25000
