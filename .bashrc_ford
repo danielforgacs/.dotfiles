@@ -10,9 +10,14 @@ echo '--> .bashrc_ford:'
 # ------------------------------------
 # Terminal config.
 
+# https://anotheruiguy.gitbooks.io/gitforeveryone/content/auto/README.html
+# download git prompt to get __git_ps1
+. .git-prompt.sh
+
 export HISTTIMEFORMAT="%F %T "
 export HISTSIZE=25000
-# export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
+export PS1='\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
+# export PS1='export PS1='\u@\[\033[1;32m\]\h\[\033[00m\]:$(__git_ps1)\w$'
 
 
 # ------------------------------------
