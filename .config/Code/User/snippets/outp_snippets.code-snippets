@@ -16,6 +16,6 @@
 	// 	"description": "Log output to console"
 	// }
 	"shotgrid_debug": {
-		"body": "import sys\nsys.stdout = sys.__stdout__\nsys.path += ['/home/dforgacs/dev/shotgun_config']\nimport ptvsd\nptvsd.enable_attach()\nptvsd.wait_for_attach()\n# ptvsd.break_into_debugger()\n"
+		"body": "import sys\n# sys.stdout = sys.__stdout__\nsys.path += [\n    '/home/dforgacs/dev/shotgun_config',\n    '/home/dforgacs/dev/.venv-py-2/lib/python2.7/site-packages'\n]\nimport ptvsd\n# ptvsd.enable_attach()\n# ptvsd.wait_for_attach()\n# ptvsd.break_into_debugger()\n"
 	}
 }
